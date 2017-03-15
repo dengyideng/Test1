@@ -1,0 +1,69 @@
+div{
+	margin: 20px;
+	border:1px solid rgb(153,153,153);
+	padding: 20px;
+}
+
+div.Container{
+	background-color: rgb(238,238,238);
+	padding: 0;
+	position: relative;
+}
+
+div.team_message{
+	width: 200px;
+	background-color: white;
+	padding: 0;
+	float: left;
+}
+
+div.Content{
+	background-color: white;
+	margin-left: 242px;
+	margin-right: 164px;
+}
+
+div.person_mess{
+	background-color: white;
+	padding: 0;
+	width: 122px;
+	float: right;
+}
+
+body{
+	margin: 0;
+	font-family: "微软雅黑";
+}
+
+div.pic_item{
+	padding: 0;
+	width: 80px;
+	height: 80px;
+}
+
+#team_logo{
+	float: left;
+}
+
+p.team_name:after{
+	content: '.';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both; 
+}
+
+p.team_name{
+	height: 88px;
+}
+
+#test{
+	clear: both;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.account{
+	margin: 0;
+}
